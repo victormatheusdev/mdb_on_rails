@@ -1,4 +1,5 @@
 # MDB on Rails Ruby Gem
+<<<<<<< HEAD
 A gem  that makes it possible to use [MDBootstrap](https://mdbootstrap.com/ "Oficial MDBootstrap website") w/ Rails.
 
 
@@ -39,3 +40,10 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the MdbOnRails project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/mdb_on_rails/blob/master/CODE_OF_CONDUCT.md).
+=======
+A gem  that makes it possible to use [MDBootstrap](https://mdbootstrap.com/ "Oficial MDBootstrap website") w/ Rails. 
+
+## Installation
+
+
+>>>>>>> f66d00e9cb9fa64312f7f60ecbb26e379c100a88
