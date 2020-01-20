@@ -1,4 +1,6 @@
 /*
+*= require mdb_on_rails/fontawesome.min
+*= require mdb_on_rails/cursor
 *= require mdb_on_rails/bootstrap.min
 *= require mdb_on_rails/mdb.min
 */
