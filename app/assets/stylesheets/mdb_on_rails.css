@@ -4,3 +4,6 @@
 *= require mdb_on_rails/bootstrap.min
 *= require mdb_on_rails/mdb.min
 */
+.waves-input-wrapper {
+    display: block;
+  }

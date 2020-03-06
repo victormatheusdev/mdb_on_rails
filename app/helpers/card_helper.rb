@@ -4,7 +4,7 @@ module CardHelper
 
       content_tag(:div,class: "card-body") do
         if options[:title]
-          card_header(options[:title]) + card_body(yield)
+          card_header(options[:title]) + card_body {yield}
         else
           yield
         end
@@ -24,13 +24,13 @@ module CardHelper
               content_tag(:i, "", class: options[:icon] + " mr-2") + " #{options[:text]}"
             else
               options[:text]
-            end + (content_tag(:span) do
+            end + (options[:info] ? content_tag(:span) do
               info_tooltip(options[:info], extra_class: "ml-3")
-            end if options[:info])
+            end : "")
           end
-        end + (content_tag(:div) do
+        end + ( block_given? ? content_tag(:div) do
           yield
-        end if block_given?)
+        end : "")
       end
     end
   end
